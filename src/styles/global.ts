@@ -9,7 +9,13 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #E7F5F7;
+    background: #FAF5FF;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  body, input, button, span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
   }
 `;
