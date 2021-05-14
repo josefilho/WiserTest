@@ -43,7 +43,10 @@ const AuthProvider: React.FC = ({ children }) => {
           password: user.password,
         },
       });
+      return;
     }
+
+    throw new Error();
   }, []);
 
   return (
