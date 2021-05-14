@@ -32,7 +32,7 @@
 </br>
 
 <p align="center">
-  <img alt="Layout" src="https://res.cloudinary.com/feensir/video/upload/v1620981947/IMG_5301_fzv6fw.mp4">
+  <video alt="Presentation" src="https://res.cloudinary.com/feensir/video/upload/v1620981947/IMG_5301_fzv6fw.mp4">
 </p>
 
 
