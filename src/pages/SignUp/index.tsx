@@ -64,6 +64,11 @@ const SignUp: React.FC = () => {
 
           formRef.current?.setErrors(errors);
 
+          addToast({
+            type: 'error',
+            title: 'Cheque os dados inseridos',
+          });
+
           return;
         }
 
