@@ -52,6 +52,11 @@ const SignIn: React.FC = () => {
 
         await signIn(data);
 
+        addToast({
+          type: 'success',
+          title: 'Login concluído',
+        });
+
         history.push('/home');
       } catch (err) {
         if (err instanceof Yup.ValidationError) {
