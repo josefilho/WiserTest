@@ -23,25 +23,18 @@ interface IResponseProps {
   id: string | number;
   email: string;
   password: string;
+  name: string;
 }
 
 const AuthContext = createContext<AuthContextData>({} as AuthContextData);
 
 const AuthProvider: React.FC = ({ children }) => {
-  const [data, setData] = useState<UserState>(() => {
-    const user = localStorage.getItem('@Wiser:user');
+  const [data, setData] = useState<UserState>({} as UserState);
 
-    if (user) {
-      return { user: JSON.parse(user) };
-    }
+  const signIn = useCallback(async ({ email, password }: SignInCredentials) => {
+    const response = await api.get<IResponseProps[]>('users');
 
-    return {} as UserState;
-  });
-
-  const signIn = useCallback(async ({ email, password }) => {
-    const response = (await api.get('users')) as IResponseProps[];
-
-    const user = response.find(element => element.email === email);
+    const user = response.data.find(element => element.email === email);
 
     if (user?.password === password && user) {
       setData({
