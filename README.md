@@ -3,36 +3,36 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/josefilho/WiserTest?color=%23FF9000">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/josefilho/WiserTest?color=%9d25b000">
 
   <a href="https://www.linkedin.com/in/filhojosecs/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/Made%20By-Jose%20Carlos-%23FF9000">
+    <img alt="Made by" src="https://img.shields.io/badge/Made%20By-Jose%20Carlos-%9d25b000">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/josefilho/WiserTest?color=%23FF9000">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/josefilho/WiserTest?color=%9d25b000">
 
   <a href="https://github.com/josefilho/WiserTest/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/josefilho/WiserTest?color=%23FF9000">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/josefilho/WiserTest?color=%9d25b000">
   </a>
 
   <a href="https://github.com/josefilho/WiserTest/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/josefilho/WiserTest?color=%23FF9000">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/josefilho/WiserTest?color=%9d25b000">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/josefilho/WiserTest?color=%23FF9000">
+  <img alt="GitHub" src="https://img.shields.io/github/license/josefilho/WiserTest?color=%9d25b000">
 </p>
 
 <p align="center">
-  
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tests">Tests</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 </br>
 
 <p align="center">
-  <img alt="Layout" src="https://res.cloudinary.com/eliasgcf/image/upload/v1588811213/GoBarber/Kapture_2020-05-06_at_21.25.26_tijnl5.gif">
+  <img alt="Layout" src="https://res.cloudinary.com/feensir/image/upload/v1620980064/IMG_5301_wjdesm.gif">
 </p>
 
 
@@ -76,6 +76,19 @@ $ yarn
 
 # Start the client
 $ yarn start
+```
+
+## 🏁 Tests
+
+**To perform the tests just run in the terminal**
+
+```bash
+
+# To generate a coverage report, run
+$ yarn test:coverage
+
+# To run tests within report
+$ yarn test
 ```
 
 ## 🤔 How to contribute
