@@ -3,23 +3,21 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/josefilho/WiserTest?color=%9D25B000">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/josefilho/WiserTest?color=%239626AE">
 
   <a href="https://www.linkedin.com/in/filhojosecs/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/Made%20By-Jose%20Carlos-%9D25B000">
+    <img alt="Made by" src="https://img.shields.io/badge/Made%20By-Jose%20Carlos-%239626AE">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/josefilho/WiserTest?color=%9D25B000">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/josefilho/WiserTest?color=%239626AE">
 
   <a href="https://github.com/josefilho/WiserTest/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/josefilho/WiserTest?color=%9D25B000">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/josefilho/WiserTest?color=%239626AE">
   </a>
 
   <a href="https://github.com/josefilho/WiserTest/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/josefilho/WiserTest?color=%9D25B000">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/josefilho/WiserTest?color=%239626AE">
   </a>
-
-  <img alt="GitHub" src="https://img.shields.io/github/license/josefilho/WiserTest?color=%9D25B000">
 </p>
 
 <p align="center">
@@ -32,7 +30,7 @@
 </br>
 
 <p align="center">
-  <video alt="Presentation" src="https://res.cloudinary.com/feensir/video/upload/v1620981947/IMG_5301_fzv6fw.mp4">
+  <img alt="Presentation" src="https://res.cloudinary.com/feensir/image/upload/v1620997866/animation_ut8ah4.gif">
 </p>
 
 
