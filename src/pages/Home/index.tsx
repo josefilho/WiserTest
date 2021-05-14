@@ -1,11 +1,16 @@
 import React from 'react';
 
-import { Container, Title } from './styles';
+import { Container, Background, Content } from './styles';
 
-const Home: React.FC = () => (
-  <Container>
-    <Title>Welcome to Template</Title>
-  </Container>
-);
+const Home: React.FC = () => {
+  return (
+    <Container>
+      <Background />
+      <Content>
+        <h1>Login Concluído</h1>
+      </Content>
+    </Container>
+  );
+};
 
 export default Home;
