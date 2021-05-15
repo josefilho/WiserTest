@@ -14,16 +14,16 @@ interface SignInCredentials {
   password: string;
 }
 
-interface AuthContextData {
-  user: object;
-  signIn(credentials: SignInCredentials): Promise<void>;
-}
-
-interface IResponseProps {
+interface ResponseProps {
   id: string | number;
   email: string;
   password: string;
   name: string;
+}
+
+interface AuthContextData {
+  user: SignInCredentials;
+  signIn(credentials: SignInCredentials): Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextData>({} as AuthContextData);
@@ -32,7 +32,7 @@ const AuthProvider: React.FC = ({ children }) => {
   const [data, setData] = useState<UserState>({} as UserState);
 
   const signIn = useCallback(async ({ email, password }: SignInCredentials) => {
-    const response = await api.get<IResponseProps[]>('users');
+    const response = await api.get<ResponseProps[]>('users');
 
     const user = response.data.find(element => element.email === email);
 
