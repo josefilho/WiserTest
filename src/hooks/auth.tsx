@@ -43,10 +43,11 @@ const AuthProvider: React.FC = ({ children }) => {
           password: user.password,
         },
       });
+
       return;
     }
 
-    throw new Error();
+    throw new Error('Invalid credentials');
   }, []);
 
   return (
